@@ -1,0 +1,6 @@
+
+// ADD THIS AT TOP:
+const { handleKoenCommand } = require("./economy");
+
+// INSIDE MESSAGE HANDLER (after you get user + message):
+handleKoenCommand(client, channel, tags.username, message);
